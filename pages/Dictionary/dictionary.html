@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Словарь — Слово за слово</title>
+    <link rel="stylesheet" href="dictionary.css">
+    <script src="dictionary.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <!--<a href="../../index.html" class="logo">Слово за слово.</a>-->
+
+            <nav class="navigation">
+                <a href="../../index.html">Главная</a>
+                <a href="dictionary.html" class="active">Словарь</a>
+                <a href="../training/training.html">Тренировка</a>
+                <a href="../testing/testing.html">Тестирование</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="dictionary-intro">
+            <div class="container">
+                <p class="eyebrow">УЧЕБНЫЕ МАТЕРИАЛЫ</p>
+                <h1>Словарь ассоциаций</h1>
+                <p class="intro-text">
+                    Изучай словарные слова, запоминай их написание
+                    с помощью ассоциаций и пополняй свой словарный запас.
+                </p>
+            </div>
+        </section>
+
+        <section class="dictionary-section">
+            <div class="container">
+
+                <div class="dictionary-top">
+                    <div>
+                        <h2>Все слова</h2>
+                        <p class="words-count">Слов в словаре: <span id="wordsCount">9</span></p>
+                    </div>
+
+                    <div class="search-wrapper">
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Найти слово или ассоциацию..."
+                        >
+                    </div>
+                </div>
+
+                <div class="words-grid" id="wordsGrid">
+
+                    <article class="word-card">
+                        <span class="word-number">01</span>
+                        <h3>Винегрет</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Вино не греть»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">02</span>
+                        <h3>Эстакада</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Это для ста кадров»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">03</span>
+                        <h3>Пессимист</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Пёс по кличке Сим»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">04</span>
+                        <h3>Колоссальный</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Колос сала»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">05</span>
+                        <h3>Корифей</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Кора и феи»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">06</span>
+                        <h3>Эксперимент</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Эксперт и мент вместе проводят эксперимент»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">07</span>
+                        <h3>Диспетчер</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Диск петь вечером не должен»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">08</span>
+                        <h3>Антресоли</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«Треть соли»</p>
+                        </div>
+                    </article>
+
+                    <article class="word-card">
+                        <span class="word-number">09</span>
+                        <h3>Абитуриент</h3>
+                        <div class="association">
+                            <span>АСCОЦИАЦИЯ</span>
+                            <p>«А бита — у Риты!»</p>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="no-results" id="noResults" hidden>
+                    По вашему запросу ничего не найдено.
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="../../index.html" class="logo">2026 Родион.</a>
+            <p>Запоминай слова легче и интереснее.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
